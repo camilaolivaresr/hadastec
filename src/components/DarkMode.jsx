@@ -1,6 +1,8 @@
+import React from 'react'
 import { useContext } from 'react';
+import { DarkModeSwitch } from 'react-night-toggle';
 import { DarkModeContext } from './DarkModeContext'
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
+
 
 function DarkMode() {
 
@@ -11,16 +13,17 @@ function DarkMode() {
 
     return (
         <div>
-            <DarkModeSwitch
-            //  style={{ marginBottom: '1rem' }}
-             checked={darkMode}
-             onChange={handleClick}
-             size={30}
-             sunColor={{color: '#495057'}}
-            />
-            {/* <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={handleClick} />
-            </div> */}
+             {/* <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"  onChange={handleClick}    checked={darkMode}/>
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div> */}
+   <DarkModeSwitch
+        checked={darkMode}
+        onChange={toggleDarkMode}
+        sunColor="orange" // optional, defaults to currentColor
+        moonColor="black" // optional, defaults to currentColor
+      />
+
         </div>
     )
 }

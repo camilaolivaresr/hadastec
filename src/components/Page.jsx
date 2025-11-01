@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import { DarkModeContext } from './DarkModeContext'
-// import DarkMode from './DarkMode';
+import DarkMode from './DarkMode';
 import Home from './Home';
 // import Blog from './Blog';
 import Services from './Services';
@@ -40,7 +40,7 @@ function Page() {
             </div>
          
           </nav>
-            {/* <div> <DarkMode /></div> */}
+           <div> <DarkMode /></div>
         </div>
    
         <main id="page" >
