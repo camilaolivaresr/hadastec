@@ -52,16 +52,16 @@ body,html {
 
 }
 .navbar-toggler-icon {
-  color: #ff0080;
+  color: #2acd00;
 }
 .nav-link {
-  color: #ff0080;
+  color: #2acd00;
   font-size: 20px;
   font-weight: 600; 
 
 }
 .navbar-brand:hover{
-  color: #ff0080;
+  color: #2acd00;
   font-size: 4vh;
   font-weight: 900;
  
@@ -100,7 +100,7 @@ a{
   align-items: center;
 } 
 .Container-dark {
-  background-color: #495057;
+  background-color: #071b35;
   color: #F0F2F3;
 
   .fa-stack-1x {
@@ -140,7 +140,7 @@ a{
    
   }
   .navbar-brand:hover{
-    color: #ff0080;
+    color: #2acd00;
     font-size: 4vh;
     font-weight: 900;
    

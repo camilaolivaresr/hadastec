@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer class="mx-auto " id="footer">
-        <span>© 2024 HandMade CamiDev </span>
+        <span>© 2025 HandMade CamiDev </span>
         <ul>
           <li class="social-icons">
             <a
@@ -37,17 +37,6 @@ const Footer = () => {
               data-mdb-ripple-color="dark"
               target="_blank"
             ><i class="fa-footer fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li class="social-icons">
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body "
-              href="https://github.com/camilaOlivaresR"
-              role="button"
-              data-mdb-ripple-color="dark"
-              target="_blank"
-            ><i class="fa-footer fab fa-github"></i>
             </a>
           </li>
         </ul>

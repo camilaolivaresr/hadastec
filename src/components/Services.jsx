@@ -4,14 +4,14 @@ const Services = () => {
   return (
     <div class="mb-5">
       <div class="d-flex justify-content-center">
-        <h2>Portafolio</h2>
+        <h2>Servicios</h2>
       </div>
       <div class="row">
         <div class="col-md-4 p-2" >
           <div class="card h-100">
-            {/* <img src="..." class="card-img-top" alt="..." /> */}
+           
             <div class="card-body">
-              <h5 class="card-title">InternalWork
+              <h5 class="card-title">Research
                 <a
                   data-mdb-ripple-init
                   class="btn btn-link btn-floating btn-lg text-body m-1"
@@ -19,11 +19,10 @@ const Services = () => {
                   role="button"
                   data-mdb-ripple-color="dark"
                   target="_blank"
-                ><i class="fa fa-cube"></i>
+                > <i class="fa fa-magnifying-glass"></i>
                 </a>
               </h5>
-              <p class="card-text">Plataforma interna de una empresa que busca concretamente que sus empleados puedan postular a cargos internos  y poder escalar dentro de su compañía.</p>
-              <a href="https://github.com/camilaOlivaresR/internal-work" class="btn border">Github</a>
+              <p class="card-text">We design and conduct high-quality research with a focus on participatory, qualitative, and mixed-methods approaches, ensuring meaningful and comprehensive results.</p>
             </div>
           </div>
         </div>

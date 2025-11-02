@@ -6,26 +6,26 @@ import { DarkModeContext } from './DarkModeContext'
 
 function DarkMode() {
 
-    const {darkMode, toggleDarkMode} = useContext(DarkModeContext);
-    const handleClick = () => {
-        toggleDarkMode();
-    }
+  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const handleClick = () => {
+    toggleDarkMode();
+  }
 
-    return (
-        <div>
-             {/* <div class="form-check form-switch">
+  return (
+    <div>
+      {/* <div class="form-check form-switch">
   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"  onChange={handleClick}    checked={darkMode}/>
   <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
 </div> */}
-   <DarkModeSwitch
+      <DarkModeSwitch
         checked={darkMode}
         onChange={toggleDarkMode}
         sunColor="orange" // optional, defaults to currentColor
-        moonColor="black" // optional, defaults to currentColor
+        moonColor="white" // optional, defaults to currentColor
       />
 
-        </div>
-    )
+    </div>
+  )
 }
 
 export default DarkMode;
