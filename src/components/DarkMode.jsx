@@ -19,7 +19,7 @@ function DarkMode() {
 </div> */}
       <DarkModeSwitch
         checked={darkMode}
-        onChange={toggleDarkMode}
+        onChange={handleClick}
         sunColor="orange" // optional, defaults to currentColor
         moonColor="white" // optional, defaults to currentColor
       />

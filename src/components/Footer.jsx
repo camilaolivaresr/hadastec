@@ -12,7 +12,7 @@ const Footer = () => {
               class="btn btn-link btn-floating btn-lg text-body "
               href="https://es.react.dev/"
               role="button"
-              target="_blank"
+              rel="noreferrer noopener"
             ><i class="fa-footer fab fa-react"></i>
             </a>
           </li>
@@ -23,8 +23,7 @@ const Footer = () => {
                 href="mailto:camila.desarrolloweb@gmail.com"
                 role="button"
                 data-mdb-ripple-color="dark"
-                target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer noopener"
               ><i class="fa fa-envelope"></i
               ></a>
             </li>
@@ -35,7 +34,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/camilaolivaresrivera/"
               role="button"
               data-mdb-ripple-color="dark"
-              target="_blank"
+              rel="noreferrer noopener"
             ><i class="fa-footer fab fa-linkedin"></i>
             </a>
           </li>
