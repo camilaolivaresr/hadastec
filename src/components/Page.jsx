@@ -19,7 +19,7 @@ function Page() {
       <div class="container" id="wrapper">
         <div class="container-fluid mt-4 ">
           <nav class="navbar navbar-expand-lg sticky-top ">
-            <NavLink to="home"class="navbar-brand">
+            <NavLink to="home" class="navbar-brand">
                  <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
               </NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
