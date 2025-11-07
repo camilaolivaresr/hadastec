@@ -6,13 +6,23 @@ import img from './img/group.b81ca39d.png'
 const Home = () => {
   return (
     <>
-      <div class="d-flex justify-content-center mb-4">
-       <img src={img} class="rounded-circle mx-auto d-block" id='responsive' alt="..." />
+    <div>
+      <div class="container border border-danger">
+        <div class="row align-items-center justify-content-center">
+          <div class="col " >
+            <div>
+            <h1 class="text-center">
+              Mi Propuesta de Marketing mi MercadoTecnia, mi vision y valor en el mercado
+            </h1>
+            </div>
+          </div>
+          <div class="col">
+            <div class=" ">
+            <img src={img} class="img-fluid h-100 " alt="..." width="auto" height="auto" />
+          </div>
+          </div>
+        </div>
       </div>
-      <div id='parrafo'>
-        <h1>
-          Mi Propuesta de Marketing mi MercadoTecnia, mi vision y valor en el mercado
-        </h1>
       </div>
     </>
   )

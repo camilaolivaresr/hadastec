@@ -15,23 +15,22 @@ function Page() {
   const { darkMode } = useContext(DarkModeContext);
 
   return (
-    <div className={darkMode ? `Container Container-dark` : `Container Container-light`}>
-      <div class="container" id="wrapper">
-        <div class="container-fluid mt-4 ">
-          <nav class="navbar navbar-expand-lg sticky-top ">
+    <div className={darkMode ? 'dark' : 'light'}>
+        <nav class="navbar navbar-expand-lg fixed-top border border-primary">
+          <div class="container mt-4 ">
             <NavLink to="home" class="navbar-brand">
-                 <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
-              </NavLink>
+              <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
+            </NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto me-2">
                 <li class="nav-item">
-                  <NavLink to="about"  class="nav-link "> Inicio</NavLink>
+                  <NavLink to="about" class="nav-link "> Inicio</NavLink>
                 </li>
                 <li class="nav-item">
-                  <NavLink to="services"  class="nav-link ">Servicios</NavLink>
+                  <NavLink to="services" class="nav-link ">Servicios</NavLink>
                 </li>
                 {/* <li class="nav-item">
                   <NavLink to="/blog"><a class="nav-link">Blog</a></NavLink>
@@ -42,20 +41,20 @@ function Page() {
                 <li class="nav-item">
                   <NavLink to="contact">
                     <button type="button" class="btn btn-outline-success rounded-pill ">Contactanos</button>
-                    </NavLink>
+                  </NavLink>
                 </li>
                 <li class="nav-item">
-                  <DarkMode/>
+                  <DarkMode />
                 </li>
               </ul>
             </div>
-          </nav>
-        </div>
-
-        <main id="page" >
-          <div id="page-content">
+          </div>
+        </nav>
+    
+        <main class="border border-success ">
+          <div class="container d-flex align-items-center  justify-content-center  min-vh-100 border border-warning ">
             <Routes>
-              <Route path="" element={<Home />} />
+              <Route path="home" element={<Home />} />
               {/* <Route path="blog" element={<Blog />} /> */}
               <Route path="services" element={<Services />} />
               {/* <Route path="about" element={<About />} /> */}
@@ -64,7 +63,7 @@ function Page() {
           </div>
         </main>
         <Footer />
-      </div>
+    
     </div>
 
 

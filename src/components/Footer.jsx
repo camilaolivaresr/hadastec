@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer class="mx-auto " id="footer">
+      <footer class="footer border border-danger" >
+         <div class="container p-3 text-center">
         <span>© 2025 HandMade CamiDev </span>
         <ul>
           <li class="social-icons">
@@ -13,7 +14,7 @@ const Footer = () => {
               href="https://es.react.dev/"
               role="button"
               rel="noreferrer noopener"
-            ><i class="fa-footer fab fa-react"></i>
+            ><i class="fa fa-footer fab fa-react"></i>
             </a>
           </li>
           <li class="list-inline-item">
@@ -35,10 +36,11 @@ const Footer = () => {
               role="button"
               data-mdb-ripple-color="dark"
               rel="noreferrer noopener"
-            ><i class="fa-footer fab fa-linkedin"></i>
+            ><i class="fa fa-footer fab fa-linkedin"></i>
             </a>
           </li>
         </ul>
+        </div>
       </footer>
     </div>
   )

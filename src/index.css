@@ -2,14 +2,16 @@ body,html {
     height: 100%;
     background-color: #F0F2F3;
 }
-  #wrapper{
+
+#wrapper{
   min-height:100%;
 
 }
+  /* 
 #page{
   min-height:85vh;
   margin-top: 3%;
-}
+} */
 /* #portfolio {
   width: 100%;
     max-width: 48rem;
@@ -40,7 +42,7 @@ body,html {
 }
 
 .navbar-toggler{
- border: none;
+ border: #2acd00;
 }
 .navbar-toggler:focus {
  box-shadow: none;
@@ -51,9 +53,7 @@ body,html {
   font-weight: 700; */
 
 }
-.navbar-toggler-icon {
-  color: #2acd00;
-}
+
 .nav-link {
   color: #2acd00;
   font-size: 20px;
@@ -72,12 +72,10 @@ body,html {
   font-weight: 900;
  
 }
-.fakeim{
-  background-color: red;
-  width: 100%;
-  padding: 20px;
-
+.navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(42, 205, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
 a{
   text-decoration: none;
   font-size: 20px;
@@ -91,47 +89,33 @@ a{
   font-size: large;
 }
 
- .Container{
-  display: flex;
-/* 
-   height: 100vh; */
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-} 
-.Container-dark {
-  background-color: #071b35;
-  color: #F0F2F3;
 
-  .fa-stack-1x {
-    color: #495057;
+
+.fa{
+    color: #2acd00;
   }
-  .fa-footer {
-    color: #F0F2F3;
+
+.dark {
+  background-color: #181818;
+  color: #F0F2F3;
+  
+  
+  
+
+  .fa{
+    color: #2acd00;
   }
-  .fa-cube {
-     color: #F0F2F3;
-  }
-  .fa-wordpress {
-     color: #F0F2F3;
-  }
-  .fa-js {
-     color: #F0F2F3;
-  }
-  .fa {
-     color: #F0F2F3;
-  }
-  .navbar-toggler-icon{
-    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-  }
+ 
+
     .card {
     --bs-card-bg: #353738 !important;
     --bs-body-color:  #F0F2F3;
   }
 }
-.Container-light {
+.light {
   background-color: #F0F2F3;
   color: #495057;
+  
   
   .navbar-brand{
     color: #495057;
@@ -186,4 +170,11 @@ a{
 .btn-primary:hover {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+
+/* SERVICES */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
