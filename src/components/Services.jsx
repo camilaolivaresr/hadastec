@@ -7,13 +7,13 @@ const Services = () => {
       <div class="d-flex justify-content-center">
         <h2 class="">Servicios</h2>
       </div>
-      <p class= "w-11/12 md:w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl">
+      <p >
          We offer a broad range of services to help our clients strengthen their gender equality and social justice work and drive transformative change. 
       </p>
             <section>
       <ul class="row">
         <li class="col-md-4 p-2" >
-          <div class="card h-100">
+          <div class="card h-100 border-0 bg-transparent">
 
             <div class="card-body">
               <h5 class="card-title">Research

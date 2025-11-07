@@ -27,6 +27,8 @@ const Contact = () => {
                 ¿Tienes un Proyecto en mente? 
             </h1>
               <h2>Cuentanos como podemos ayudarte.</h2>
+              </div>
+                <div class="col-md-8 col-lg-6">
             <form class="contact-form" onSubmit={onSubmit}>
                 <h2 class="text-center mb-4">Contact Us</h2>
                 <div class="mb-3">
@@ -46,7 +48,8 @@ const Contact = () => {
                 </div>
                  <p>{result}</p>
             </form>
-        </div>
+            </div>
+        
     </div>
 </div>
 
