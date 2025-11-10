@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer class="footer border border-danger" >
+      <footer class="footer " >
          <div class="container p-3 text-center">
         <span>© 2025 HandMade CamiDev </span>
         <ul>

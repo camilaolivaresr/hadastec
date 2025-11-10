@@ -2,14 +2,14 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div class="mb-5">
-
-      <div class="d-flex justify-content-center">
+    <div class="container p-5  border border-warning">
+      <div class="text-center">
         <h2 class="">Servicios</h2>
-      </div>
+      
       <p >
          We offer a broad range of services to help our clients strengthen their gender equality and social justice work and drive transformative change. 
       </p>
+      </div>
             <section>
       <ul class="row">
         <li class="col-md-4 p-2" >

@@ -22,6 +22,8 @@ function DarkMode() {
         onChange={handleClick}
         sunColor="orange" // optional, defaults to currentColor
         moonColor="white" // optional, defaults to currentColor
+        width="30"
+        hight="60"
       />
 
     </div>
