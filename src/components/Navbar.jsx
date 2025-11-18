@@ -6,12 +6,21 @@ function Navbar() {
 
   return (
     <div class=" " >
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg sticky-top">
           <div class="container mt-4 ">
             <NavLink to="/" >
-              <span class="navbar-brand">
+              {/* <span class="navbar-brand">
                 <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
-              </span>
+              </span> */}
+
+<div class="neon-container">
+    <h1 class="neon-text navbar-brand">
+      <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
+    </h1>
+</div>
+
+
+
             </NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,17 +39,15 @@ function Navbar() {
                 </li>
                 <li class="nav-item">
                   <div>
-                    <button type="button" class="btn btn-outline-success rounded-pill ">
+                    {/* <button type="button" class="btn btn-outline-success rounded-pill "> */}
                       <NavLink to="contact">
-                        Contactanos
+                        <span class="nav-link ">Hablemos</span>
                       </NavLink>
-                    </button>
+                    {/* </button> */}
                   </div>
                 </li>
                 <li class="nav-item">
-                  <div class="nav-link ">
-                    <DarkMode />
-                  </div>
+                    <DarkMode class="nav-link "/>
                 </li>
               </ul>
             </div>

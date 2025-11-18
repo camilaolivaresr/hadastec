@@ -189,3 +189,15 @@ ul{
   margin: 0;
   padding: 0;
 }
+
+/* TEXTO HADASTEXT */
+.neon-text {
+    color: #fff;
+    animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+ 
+    100% {
+        text-shadow: 0 0 20px #7dee73, 0 0 40px #7f9ff7;
+    }
+}

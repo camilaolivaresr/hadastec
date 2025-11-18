@@ -7,10 +7,7 @@ import { DarkModeContext } from './DarkModeContext'
 function DarkMode() {
 
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
-  const handleClick = () => {
-    toggleDarkMode();
-  }
-
+  
   return (
     <div>
       {/* <div class="form-check form-switch">
@@ -19,11 +16,10 @@ function DarkMode() {
 </div> */}
       <DarkModeSwitch
         checked={darkMode}
-        onChange={handleClick}
+        onChange={toggleDarkMode}
         sunColor="orange" // optional, defaults to currentColor
         moonColor="white" // optional, defaults to currentColor
-        width="30"
-        hight="60"
+        size={40}
       />
 
     </div>

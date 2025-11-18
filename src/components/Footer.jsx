@@ -14,7 +14,7 @@ const Footer = () => {
               href="https://es.react.dev/"
               role="button"
               rel="noreferrer noopener"
-            ><i class="fa fa-footer fab fa-react"></i>
+            ><i class="fa fa-footer fab fa-react fa-xl"></i>
             </a>
           </li>
           <li class="list-inline-item">
@@ -25,7 +25,7 @@ const Footer = () => {
                 role="button"
                 data-mdb-ripple-color="dark"
                 rel="noreferrer noopener"
-              ><i class="fa fa-envelope"></i
+              ><i class="fa fa-envelope fa-xl"></i
               ></a>
             </li>
           <li class="social-icons">
@@ -36,7 +36,7 @@ const Footer = () => {
               role="button"
               data-mdb-ripple-color="dark"
               rel="noreferrer noopener"
-            ><i class="fa fa-footer fab fa-linkedin"></i>
+            ><i class="fa fa-footer fab fa-linkedin fa-xl"></i>
             </a>
           </li>
         </ul>
