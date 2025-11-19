@@ -19,7 +19,7 @@ function DarkMode() {
         onChange={toggleDarkMode}
         sunColor="orange" // optional, defaults to currentColor
         moonColor="white" // optional, defaults to currentColor
-        size={40}
+        size={35}
       />
 
     </div>

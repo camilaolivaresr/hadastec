@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer class="footer " >
-         <div class="container p-3 text-center">
+         <div class="container p-2 text-center">
         <span>© 2025 HandMade CamiDev </span>
         <ul>
           <li class="social-icons">

@@ -6,18 +6,13 @@ function Navbar() {
 
   return (
     <div class=" " >
-        <nav class="navbar navbar-expand-lg sticky-top">
-          <div class="container mt-4 ">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container ">
             <NavLink to="/" >
-              {/* <span class="navbar-brand">
+              <span class="navbar-brand">
                 <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
-              </span> */}
+              </span>
 
-<div class="neon-container">
-    <h1 class="neon-text navbar-brand">
-      <font color="#2acd00">Hadas</font><font color="#9e0be7">Tec</font>
-    </h1>
-</div>
 
 
 

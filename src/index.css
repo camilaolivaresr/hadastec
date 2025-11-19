@@ -15,7 +15,7 @@ body,html {
   min-height: 100vh;
 }
 #content{
-  min-height: 80vh;
+  min-height: 83vh;
 }
 /* #portfolio {
   width: 100%;
@@ -29,12 +29,7 @@ body,html {
 } */
 
 /* #footer{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  position: relative;
- justify-content: center;
- align-items: center;
+height: 20vh;
 } */
 .social-icons{
   display: inline;
@@ -190,14 +185,3 @@ ul{
   padding: 0;
 }
 
-/* TEXTO HADASTEXT */
-.neon-text {
-    color: #fff;
-    animation: glow 2s infinite alternate;
-}
-@keyframes glow {
- 
-    100% {
-        text-shadow: 0 0 20px #7dee73, 0 0 40px #7f9ff7;
-    }
-}

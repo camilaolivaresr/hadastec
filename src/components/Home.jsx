@@ -15,12 +15,12 @@ import NotFound from './NotFound';
 const Home = () => {
   const { darkMode } = useContext(DarkModeContext);
   return (
-    <>
-         <div className={darkMode ? 'dark' : 'light'}>
-      <div class="border border-danger" id='page' >
+   
+         <div className={darkMode ? 'dark' : 'light'}  >
+    
    
           <Navbar />
-          <div class="align-content-center border border-danger" id='content'>
+          <div class="align-content-center border border-warning" id='content'>
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="services" element={<Services />} />
@@ -31,8 +31,8 @@ const Home = () => {
           </div>
           <Footer />
         </div>
-      </div>
-    </>
+     
+   
   )
 }
 
