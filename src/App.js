@@ -1,6 +1,6 @@
 import React from "react";
 import { DarkModeProvider } from "./components/DarkModeContext";
-import Home from "./components/Home";
+import Router from "./components/Router";
 
 
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <DarkModeProvider>
-        <Home/>
+        <Router/>
       </DarkModeProvider>
     </>
 
