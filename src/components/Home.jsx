@@ -11,23 +11,25 @@ const Home = () => {
                             Centramos los principios feministas en todos nuestros procesos y formas de trabajo.
                         </p>
                         <div class='mt-12'>
-                            <div class='row align-items-center justify-content-center'>
+                            <div class='row '>
                                 <div class='col border border-danger'>
                                     <ul class=''>
-                                        <li class='col p-2t'>
-                                            <div>
-                                            <div >
-                                               <i class="fa fa-regular fa-lightbulb"></i>
-               <p>
-                                                <span class=''>
-                                                    Transformación:
-                                                </span>
-                                                Estamos comprometidos con el avance de la igualdad de género y la justicia social,
-                                                impulsando el cambio transformador dentro de las organizaciones, los gobiernos y
-                                                las comunidades.
-                                            </p>
-                                            </div>
-                                           </div>
+                                        <li class='d-flex  '>
+                                          
+                                                <div class=' p-2t border border-warning '>
+
+                                                         <i class="fa-notdog fa-solid fa-check "></i>
+                                                   </div>
+                                                    <p>
+                                                        <span class=' p-2 fw-bold'>
+                                                            Transformación:
+                                                        </span>
+                                                        Estamos comprometidos con el avance de la igualdad de género y la justicia social,
+                                                        impulsando el cambio transformador dentro de las organizaciones, los gobiernos y
+                                                        las comunidades.
+                                                    </p>
+                                                
+                                            
                                         </li>
                                         <li class='col p-2'>
                                             <div >
