@@ -13,7 +13,7 @@ const Services = () => {
             <section>
       <ul class="row">
         <li class="col-md-4 p-2" >
-          <div class="card h-100 border-0 bg-transparent">
+          <div class="card h-100 ">
 
             <div class="card-body">
               <h5 class="card-title">Research

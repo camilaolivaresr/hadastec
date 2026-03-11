@@ -99,7 +99,7 @@ a{
 
 .dark {
   background-color: #181818;
-  color: #F0F2F3;
+  color: #ffffff;
   
  .navbar{
    background-color: #181818;
@@ -115,10 +115,26 @@ a{
     --bs-card-bg: #353738 !important;
     --bs-body-color:  #F0F2F3;
   }
+    .card:hover {
+    background-color: #663399 ;
+    color: #FFEE01;
+  }
+
 }
 .light {
   background-color: #F0F2F3;
   color: #495057;
+
+  .card {
+    background-color:#F0F2F3;
+    color: #495057;;
+  }
+
+  .card:hover {
+    background-color: #FFEE01;
+    color: #613091;
+   --bs-card-border-color: #613091;
+  }
  
   .navbar{
    background-color: #F0F2F3;
