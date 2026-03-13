@@ -35,8 +35,17 @@ function Navbar() {
                 <li class="nav-item">
                   <div>
                     {/* <button type="button" class="btn btn-outline-success rounded-pill "> */}
-                      <NavLink to="contact">
+                      <NavLink to="meeting">
                         <span class="nav-link ">Hablemos</span>
+                      </NavLink>
+                    {/* </button> */}
+                  </div>
+                </li>
+                 <li class="nav-item">
+                  <div>
+                    {/* <button type="button" class="btn btn-outline-success rounded-pill "> */}
+                      <NavLink to="contact">
+                        <span class="nav-link ">Contacto</span>
                       </NavLink>
                     {/* </button> */}
                   </div>

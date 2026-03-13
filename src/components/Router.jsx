@@ -9,6 +9,7 @@ import About from './About';
 import Calend from './Calend';
 import NotFound from './NotFound';
 import Home from './Home';
+import Contact from './Contact';
 
 
 
@@ -26,7 +27,8 @@ const Router = () => {
             <Route path="/" element={<About />} />
             <Route path="services" element={<Services />} />
             <Route path="about" element={<Home />} />
-            <Route path="contact" element={<Calend />} />
+            <Route path="meeting" element={<Calend />} />
+            <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </div>

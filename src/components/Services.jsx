@@ -106,6 +106,12 @@ const Services = () => {
                 ><i class="fa fa-brands fa-leanpub"></i>
                 </a>
               </h5>
+              <p>
+                Capacitación y upskilling: Vender bootcamps o certificaciones ($200-1.000/participante) para mujeres vulnerables y empresas, 
+                generando ingresos duales vía subsidios estatales y contratos corporativos.​
+                Enseñar a niñas rurales a hacer una pagina en html con css como el curso basico hacktivista
+
+              </p>
             </div>
           </div>
         </li>
