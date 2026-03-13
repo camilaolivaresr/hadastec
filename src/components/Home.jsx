@@ -40,7 +40,7 @@ const Home = () => {
                                                     Colaboración:
                                                 </span>
                                                 Nos asociamos estrechamente con los clientes para fomentar el entendimiento mutuo,
-                                                establecer procesos acordados y lograr resultados impactantes.
+                                                 para crear una visión compartida de lo que se desea construir.
                                             </p>
                                         </li>
                                         <li class='col p-2'>
@@ -51,8 +51,9 @@ const Home = () => {
                                                 <span class=''>
                                                     Co-Creación:
                                                 </span>
-                                                Utilizamos métodos y herramientas de investigación no extractivos para co-crear conocimiento
-                                                con clientes, socios y comunidades.
+                                                Utilizamos métodos y herramientas de investigación para co-crear entender 
+                                                quiénes serán los usuarios y clientes principales, cuáles son sus problemas
+                                                 y necesidades y cómo las vamos a resolver.
                                             </p>
                                         </li>
                                         <li class='col p-2'>
@@ -63,7 +64,11 @@ const Home = () => {
                                                 <span class=''>
                                                     Acción:
                                                 </span>
-                                                Diseñamos la investigación para que sea relevante y procesable, apoyando políticas, programas y toma de decisiones basados en la evidencia.
+                                                 El compromiso y la sinergia, alcanzados por el equipo en esta etapa, son muy importantes.
+                                                  Es por eso que en todos nuestros proyectos diseñamos las soluciones juntos, proponemos y
+                                                   discutimos alternativas y nos enfocamos en alcanzar los objetivos, maximizando la 
+                                                   colaboración y la comunicación , generando, al mismo tiempo, un importante caudal de 
+                                                   conocimiento compartido.
                                             </p>
                                         </li>
                                         <li class='col p-2'>
