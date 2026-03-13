@@ -11,11 +11,23 @@ const Calend = () => {
                 <h2>Aprenda cómo podemos ayudarle.</h2>
 
             </div>
-            <InlineWidget
+             <div >
+                <InlineWidget 
                 url="https://calendly.com/hadastecnologia/30min"
-            //    
+              
+                 
 
+styles={{
+  height: '700px',
+    backgroundColor: '#0A0B12',  // Color de fondo oscuro
+        primaryColor: '#b0f82a',     // Color principal (botones)
+        textColor: '#FFFFFF'  
+}}
+ 
             />
+
+            </div>
+            
         </div>
     )
 }
